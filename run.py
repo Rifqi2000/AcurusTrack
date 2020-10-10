@@ -29,7 +29,7 @@ from pipeline import MainAlgo
 from config import MetaProcessingParams
 
 
-# logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.DEBUG)
 
 
 def process_initial_dirs(video_name, save_dir, experiment_name):
